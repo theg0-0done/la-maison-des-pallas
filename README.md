@@ -1,20 +1,61 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# La Maison des Lallas
 
-# Run and deploy your AI Studio app
+A Sanctuary of Moroccan Elegance. This project is a modern, interactive web application built to showcase the luxurious experience of La Maison des Lallas.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/e59790ec-eb7a-4fb3-b1e5-2ff5e9fcea31
+- **Immersive User Interface**: Smooth scroll animations, sticky sections, and parallax effects powered by [Motion](https://motion.dev/).
+- **Rich Media**: High-quality background videos and image galleries.
+- **Responsive Design**: Fully responsive layout tailored for mobile, tablet, and desktop viewing.
+- **Sections**:
+  - Hero with Video Background
+  - About
+  - Rooms Exploration
+  - Photo Gallery
+  - Activities (Hammam, Masterclasses, Tours)
+  - Guest Reviews
+  - Amenities
+  - Booking & Location
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Framework**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Motion (Framer Motion)](https://motion.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+- Node.js (v18 or higher recommended)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/theg0-0done/la-maison-des-pallas.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:3000`.
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
+```
+The output will be generated in the `dist/` directory, ready to be deployed to platforms like Vercel, Netlify, or GitHub Pages.
+
+## Deployment Notes
+
+- **Video Assets**: Background `.mp4` videos are committed directly to standard Git (not Git LFS) to ensure out-of-the-box compatibility with standard hosting platforms like Vercel and Netlify.
